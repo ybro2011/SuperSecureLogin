@@ -20,3 +20,18 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
+# Flask
+instance/
+.webassets-cache
+
+# Celebrities (keep directory but ignore images for privacy)
+celebs/*.jpg
+celebs/*.jpeg
+celebs/*.png
+!celebs/README.md
+
+# Cache files (can be regenerated)
+*.pickle
+encodings.pickle
+multi_encodings.pickle
+
